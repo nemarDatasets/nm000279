@@ -1,0 +1,11 @@
+{
+  "Name": "zuco2 word-level reading measures",
+  "BIDSVersion": "1.9.0",
+  "DatasetType": "derivative",
+  "GeneratedBy": [
+    {
+      "Name": "enrich_zuco.py",
+      "Description": "Per-word eye-tracking reading measures (FFD/SFD/GD/GPT/TRT, pupil, nFixations) and channel-averaged EEG band power from ZuCo sentenceData"
+    }
+  ]
+}

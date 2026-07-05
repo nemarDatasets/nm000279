@@ -1,0 +1,37 @@
+{
+  "sentence_id": {
+    "Description": "Sentence number in the reading task"
+  },
+  "word_id": {
+    "Description": "Word position within the sentence"
+  },
+  "word": {
+    "Description": "Word token"
+  },
+  "nfixations": {
+    "Description": "Number of fixations on the word"
+  },
+  "ffd": {
+    "Description": "First fixation duration",
+    "Units": "ms"
+  },
+  "sfd": {
+    "Description": "Single fixation duration",
+    "Units": "ms"
+  },
+  "gd": {
+    "Description": "Gaze duration",
+    "Units": "ms"
+  },
+  "gpt": {
+    "Description": "Go-past time",
+    "Units": "ms"
+  },
+  "trt": {
+    "Description": "Total reading time",
+    "Units": "ms"
+  },
+  "meanpupilsize": {
+    "Description": "Mean pupil size during reading of the word"
+  }
+}

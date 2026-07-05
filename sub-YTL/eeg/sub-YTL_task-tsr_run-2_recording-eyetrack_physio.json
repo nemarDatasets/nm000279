@@ -1,0 +1,21 @@
+{
+  "SamplingFrequency": 500.0,
+  "StartTime": -0.021,
+  "Columns": [
+    "eye1_x_coordinate",
+    "eye1_y_coordinate",
+    "eye1_pupil_size"
+  ],
+  "eye1_x_coordinate": {
+    "Description": "Left-eye horizontal gaze position",
+    "Units": "pixel"
+  },
+  "eye1_y_coordinate": {
+    "Description": "Left-eye vertical gaze position",
+    "Units": "pixel"
+  },
+  "eye1_pupil_size": {
+    "Description": "Left-eye pupil area",
+    "Units": "arbitrary"
+  }
+}

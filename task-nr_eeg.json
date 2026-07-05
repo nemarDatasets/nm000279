@@ -1,0 +1,18 @@
+{
+  "TaskName": "nr",
+  "TaskDescription": "Normal reading (task 1): naturalistic reading of Wikipedia sentences.",
+  "Manufacturer": "Electrical Geodesics (EGI)",
+  "ManufacturersModelName": "Geodesic Hydrocel GSN 128",
+  "CapManufacturer": "EGI",
+  "EEGChannelCount": 128,
+  "SamplingFrequency": 500,
+  "EEGReference": "Cz (vertex)",
+  "PowerLineFrequency": 50,
+  "SoftwareFilters": "n/a",
+  "EEGPlacementScheme": "GSN-HydroCel-128",
+  "InstitutionName": "University of Zurich",
+  "RecordingType": "continuous",
+  "EyeTrackingManufacturer": "SR Research",
+  "EyeTrackingModel": "EyeLink 1000",
+  "Instructions": "Normal reading (task 1): naturalistic reading of Wikipedia sentences."
+}

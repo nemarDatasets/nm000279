@@ -1,0 +1,44 @@
+{
+  "onset": {
+    "Description": "Event onset from recording start",
+    "Units": "s"
+  },
+  "duration": {
+    "Description": "Event duration",
+    "Units": "s"
+  },
+  "trial_type": {
+    "Description": "trigger_<code> (experiment marker), fixation, saccade, or blink"
+  },
+  "value": {
+    "Description": "Original EEG trigger code"
+  },
+  "gaze_x": {
+    "Description": "Gaze x at fixation/saccade start",
+    "Units": "pixel"
+  },
+  "gaze_y": {
+    "Description": "Gaze y at fixation/saccade start",
+    "Units": "pixel"
+  },
+  "pupil_size": {
+    "Description": "Pupil area during fixation",
+    "Units": "arbitrary"
+  },
+  "sacc_endx": {
+    "Description": "Saccade end x",
+    "Units": "pixel"
+  },
+  "sacc_endy": {
+    "Description": "Saccade end y",
+    "Units": "pixel"
+  },
+  "sacc_amplitude": {
+    "Description": "Saccade amplitude",
+    "Units": "degree"
+  },
+  "sacc_peakvel": {
+    "Description": "Saccade peak velocity",
+    "Units": "degree/s"
+  }
+}
