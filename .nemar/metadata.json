@@ -1,20 +1,37 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "ZuCo 2.0: EEG and Eye-Tracking during Natural Reading and Annotation",
+  "description": "ZuCo 2.0 is a dataset of simultaneous EEG and eye-tracking recordings collected while adult native English speakers read natural sentences from Wikipedia. It includes both normal reading and task-specific reading with semantic annotation, providing physiological data useful for studying reading comprehension, language processing, and eye-movement-brain correlations.",
+  "methods_description": "Data were collected using a 128-channel EGI Geodesic EEG system (500 Hz, Cz reference) and an EyeLink 1000 eye tracker (500 Hz, left eye) recorded simultaneously while participants read Wikipedia sentences under two task conditions: normal reading and task-specific reading with semantic relation annotation. Eye-tracking gaze and pupil data are co-located with EEG recordings, and fixations, saccades, and blinks are documented in events files.",
+  "license": "CC-BY-4.0",
+  "dataset_type": "raw",
   "authors": {
     "Nora Hollenstein": {},
     "Marius Tröndle": {},
     "Ce Zhang": {},
     "Nicolas Langer": {}
   },
-  "title": "ZuCo 2.0: EEG and Eye-Tracking during Natural Reading and Annotation",
-  "license": "CC-BY-4.0",
-  "dataset_type": "raw",
-  "resource_type_general": "Dataset",
-  "modalities": [
-    "eeg"
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "eye-tracking"
+    },
+    {
+      "term": "natural reading"
+    },
+    {
+      "term": "psycholinguistics"
+    },
+    {
+      "term": "fixations"
+    },
+    {
+      "term": "semantic annotation"
+    }
   ],
-  "resource_type_specific": "EEG Dataset",
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/nm000279",
@@ -32,6 +49,11 @@
       "relation_type": "IsDescribedBy"
     }
   ],
+  "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
   "sizes": [
     "19.6 GB (756 files)"
   ],
@@ -42,28 +64,6 @@
     ".tsv",
     ".vhdr",
     ".vmrk"
-  ],
-  "description": "ZuCo 2.0 is a multimodal neurophysiological dataset comprising simultaneous 128-channel EEG and eye-tracking recordings from adult native English speakers during natural reading and semantic annotation tasks. Participants read Wikipedia sentences under two conditions: normal reading and task-specific reading with semantic relation annotation. The dataset includes high-resolution physiological signals (500 Hz sampling) with synchronized gaze, pupil, and ocular event data, providing a rich resource for investigating the neural and oculomotor correlates of reading comprehension and linguistic processing.",
-  "methods_description": "EEG was recorded using a 128-channel EGI Geodesic system at 500 Hz with Cz reference. Eye-tracking was simultaneously acquired using an EyeLink 1000 system at 500 Hz (left eye). Participants performed two reading tasks: normal reading of Wikipedia sentences and task-specific reading with semantic relation annotation. Eye-tracking data include gaze and pupil samples (physio format) and derived ocular events (fixations, saccades, blinks) in events.tsv files.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "eye tracking"
-    },
-    {
-      "term": "reading comprehension"
-    },
-    {
-      "term": "natural language processing"
-    },
-    {
-      "term": "semantic annotation"
-    },
-    {
-      "term": "multimodal neuroimaging"
-    }
   ],
   "source_hash": "b3c5dc5718a0b56bd2db4b7a217fc0f049230182c6de0be240078c3380d22358"
 }
