@@ -5,13 +5,13 @@
   "License": "CC-BY-4.0",
   "Authors": [
     "Nora Hollenstein",
-    "Marius Tr\u00f6ndle",
+    "Marius Tröndle",
     "Ce Zhang",
     "Nicolas Langer"
   ],
   "Acknowledgements": "Recorded at the University of Zurich. Adult native English speakers read natural sentences while 128-channel EEG (EGI Geodesic) and eye-tracking (EyeLink 1000) were recorded simultaneously.",
   "HowToAcknowledge": "Hollenstein, N., Troendle, M., Zhang, C., & Langer, N. (2020). ZuCo 2.0: A Dataset of Physiological Recordings During Natural Reading and Annotation. LREC 2020.",
-  "DatasetDOI": "10.18653/v1/2020.lrec-1.18",
+  "DatasetDOI": "10.82901/nemar.nm000279",
   "ReferencesAndLinks": [
     "https://aclanthology.org/2020.lrec-1.18/",
     "https://osf.io/2urht/"
@@ -24,5 +24,11 @@
       "Name": "convert_zuco.py",
       "Description": "EEGLAB->BIDS EEG (GSN-HydroCel-128) + EyeLink eye-tracking physio + reading events"
     }
-  ]
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "10.18653/v1/2020.lrec-1.18"
+    }
+  ],
+  "Version": "1.0.0"
 }
