@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
   "title": "ZuCo 2.0: EEG and Eye-Tracking during Natural Reading and Annotation",
-  "description": "ZuCo 2.0 is a dataset of simultaneous EEG and eye-tracking recordings collected while adult native English speakers read natural sentences from Wikipedia. It includes both normal reading and task-specific reading with semantic annotation, providing physiological data useful for studying reading comprehension, language processing, and eye-movement-brain correlations.",
-  "methods_description": "Data were collected using a 128-channel EGI Geodesic EEG system (500 Hz, Cz reference) and an EyeLink 1000 eye tracker (500 Hz, left eye) recorded simultaneously while participants read Wikipedia sentences under two task conditions: normal reading and task-specific reading with semantic relation annotation. Eye-tracking gaze and pupil data are co-located with EEG recordings, and fixations, saccades, and blinks are documented in events files.",
+  "description": "ZuCo 2.0 provides simultaneous EEG and eye-tracking recordings from adult native English speakers during natural reading and annotation tasks. Participants performed normal reading and task-specific reading of Wikipedia sentences while 128-channel EEG and eye-tracking data were collected. The dataset supports research on the neural and oculomotor correlates of natural language processing and reading comprehension.",
+  "methods_description": "128-channel EEG (EGI Geodesic system, 500 Hz sampling rate, Cz reference) was recorded simultaneously with eye-tracking (EyeLink 1000, 500 Hz, left eye) while participants read naturalistic Wikipedia sentences under two conditions: normal reading and task-specific reading involving semantic relation annotation. Eye-tracking gaze and pupil samples are co-located with EEG recordings, and fixations, saccades, and blinks are provided in events files.",
   "license": "CC-BY-4.0",
   "dataset_type": "raw",
   "authors": {
@@ -17,19 +17,19 @@
       "term": "EEG"
     },
     {
-      "term": "eye-tracking"
+      "term": "Eye-Tracking"
     },
     {
-      "term": "natural reading"
+      "term": "Natural Reading"
     },
     {
-      "term": "psycholinguistics"
+      "term": "Psycholinguistics"
     },
     {
-      "term": "fixations"
+      "term": "Reading Comprehension"
     },
     {
-      "term": "semantic annotation"
+      "term": "Semantic Annotation"
     }
   ],
   "related_identifiers": [
@@ -46,7 +46,7 @@
     {
       "identifier": "10.18653/v1/2020.lrec-1.18",
       "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "resource_type_general": "Dataset",
@@ -55,15 +55,17 @@
     "eeg"
   ],
   "sizes": [
-    "19.6 GB (756 files)"
+    "18.22 GB (756 files)"
   ],
   "formats": [
     ".eeg",
     ".gz",
     ".json",
+    ".md",
     ".tsv",
     ".vhdr",
-    ".vmrk"
+    ".vmrk",
+    ".yml"
   ],
-  "source_hash": "b3c5dc5718a0b56bd2db4b7a217fc0f049230182c6de0be240078c3380d22358"
+  "source_hash": "4624f6ec3807e2d0058a677b83ff197be2482828ba607460bd4e8702dd4674d1"
 }
