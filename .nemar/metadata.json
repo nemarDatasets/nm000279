@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "ZuCo 2.0: EEG and Eye-Tracking during Natural Reading and Annotation",
-  "description": "ZuCo 2.0 provides simultaneous EEG and eye-tracking recordings from adult native English speakers during natural reading and annotation tasks. Participants performed normal reading and task-specific reading of Wikipedia sentences while 128-channel EEG and eye-tracking data were collected. The dataset supports research on the neural and oculomotor correlates of natural language processing and reading comprehension.",
-  "methods_description": "128-channel EEG (EGI Geodesic system, 500 Hz sampling rate, Cz reference) was recorded simultaneously with eye-tracking (EyeLink 1000, 500 Hz, left eye) while participants read naturalistic Wikipedia sentences under two conditions: normal reading and task-specific reading involving semantic relation annotation. Eye-tracking gaze and pupil samples are co-located with EEG recordings, and fixations, saccades, and blinks are provided in events files.",
+  "description": "ZuCo 2.0 provides simultaneous 128-channel EEG and eye-tracking recordings from adult native English speakers reading natural Wikipedia sentences. Two paradigms are included: normal reading and task-specific reading with annotation of semantic relations. The data are organized in BIDS with gaze and pupil samples as physiological recordings and fixations, saccades and blinks as events.",
+  "methods_description": "128-channel EEG was recorded with an EGI Geodesic system (500 Hz, Cz reference) simultaneously with EyeLink 1000 eye-tracking (500 Hz, left eye). Participants read sentences in blocks, each block being a run, in normal reading and task-specific reading tasks. Recordings were made at the University of Zurich.",
   "license": "CC-BY-4.0",
   "dataset_type": "raw",
   "authors": {
@@ -17,19 +17,24 @@
       "term": "EEG"
     },
     {
-      "term": "Eye-Tracking"
+      "term": "Eye-Tracking Technology",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000084542"
     },
     {
-      "term": "Natural Reading"
+      "term": "natural reading"
     },
     {
-      "term": "Psycholinguistics"
+      "term": "Reading",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D011932"
     },
     {
-      "term": "Reading Comprehension"
+      "term": "psycholinguistics"
     },
     {
-      "term": "Semantic Annotation"
+      "term": "semantic relation annotation"
     }
   ],
   "related_identifiers": [
